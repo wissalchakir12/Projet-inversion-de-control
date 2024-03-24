@@ -1,5 +1,5 @@
 <h1>Compte rendu</h1>
-<h2>Inversion de control et injection de</h2>
+<h2>Inversion de control et injection de dépendances</h2>
 <h3>La structure de mon projet :</h3>
 <img src="./captures/StructureProjet.PNG">
 <h3>L'implementation de IDao version web service</h3>
