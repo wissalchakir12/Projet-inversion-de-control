@@ -12,10 +12,6 @@ public class MetierImpl implements IMetier {
         this.dao=dao;
     }
 
-
-
-
-
     //@Autowired //ctd quand on cree un objet MetierImpl inject dans dao un objet de type Idao
     private IDao dao; //Couplage faible
     @Override

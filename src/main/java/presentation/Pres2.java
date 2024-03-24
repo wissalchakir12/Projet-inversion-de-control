@@ -13,20 +13,14 @@ import java.util.Scanner;
 public class Pres2 {
     public static void main(String[] args) throws Exception {
 
-
         //DaoImplV2 dao = new DaoImplV2();
-
-
         Scanner scanner=new Scanner(new File("Config.txt"));//lire le fichier de conf
         String daoClassName=scanner.nextLine();
         Class cDao=Class.forName(daoClassName); //charger la classe en memoire
 
         IDao dao=(IDao) cDao.getConstructor().newInstance();// => new DaoImpl() ou tout objet d'une classe qui implemente l'interface IDao
 
-
         // MetierImpl metier = new MetierImpl();
-
-
 
         String metierClassName=scanner.nextLine();
         Class cmetier=Class.forName(metierClassName);
