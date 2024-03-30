@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 
 public class MetierImpl implements IMetier {
-    public MetierImpl(IDao dao)
+    public MetierImpl()
     {
-        this.dao=dao;
+
     }
 
     //@Autowired //ctd quand on cree un objet MetierImpl inject dans dao un objet de type Idao
