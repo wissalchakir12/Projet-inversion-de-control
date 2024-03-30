@@ -1,6 +1,8 @@
 <h1>Compte rendu</h1>
 <h2>Inversion de control et injection de dépendances</h2>
+
 <h3>Mon projet utilise le principe d'inversion de contrôle (IoC) et l'injection de dépendances avec Spring, permettant ainsi une gestion efficace et souple des composants. Grâce à cette approche, les dépendances sont gérées de manière transparente, favorisant la modularité et la testabilité du code.</h3>
+
 <h3>La structure de mon projet :</h3>
 
 
@@ -17,7 +19,7 @@
 
 
 <h3>L'interface IMetier :</h3>
-<img src="./captures/IMetier.PNG">
+<img src="./captures/Imetier.PNG">
 
 <h3>L'implementation de IMetier :</h3>
 <img src="./captures/MetierImpl.PNG">
@@ -30,6 +32,6 @@
 <h3>Les deux versions XML et annotations sont des versions pour configurer Spring à faire l'injection de dépendances :</h3>
 <h3> 1- Version XML :</h3>
 <img src="captures/VersionXML.PNG">
-<h3> 2- :wq
+<h3> 2- 
 Version Annotation :</h3>
 <img src="captures/VersionAnnotation.PNG">
